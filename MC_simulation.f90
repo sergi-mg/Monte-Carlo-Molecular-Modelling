@@ -14,7 +14,7 @@ program P2_Monte_Carlo
     !compilation: gfortran simulation.f90 r1279.f90 ran2.f -o file.exe
     !execution ".\file.exe L T NMCS NMEAS "file_name""
 
-    !variables d'entrada
+    !input
     call getarg(1 , sL) !lattice size: LxL (int)
     call getarg(2 , sT) !Temperature (double precision)
     call getarg(3 , sNMCS) !MC steps (int)
@@ -204,5 +204,6 @@ subroutine metropolis(S,L,nbr,z,T,MCTOT,dMC)
     close(3)
     return
 end subroutine
+
 
 
