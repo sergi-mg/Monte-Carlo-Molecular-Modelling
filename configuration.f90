@@ -1,4 +1,4 @@
-!Program: Practice 2 - configuration generator 2D square lattice
+!Program: random configuration generator, 2D square lattice
 !Author: Julia Carrillo Alonso and Sergi Martinez Galindo
 
 program configuration
@@ -34,4 +34,5 @@ program configuration
     close(1)
     write(*,*)"End of the program reached."
 end program
+
 
