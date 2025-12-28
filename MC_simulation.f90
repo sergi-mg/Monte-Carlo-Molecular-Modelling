@@ -147,7 +147,7 @@ subroutine metropolis(S,L,nbr,z,T,MCTOT,dMC)
     REAL :: r1279
     character*128 :: file_name
     !creating the file to save the values needed
-    WRITE(file_name, '(A11,F4.1, A1, I0,A4)') "results_MC_", T,"_" ,L ,".txt"  
+    WRITE(file_name, '(A11,F4.2, A1, I0,A4)') "results_MC_", T,"_" ,L ,".txt"  
     open(3,file=file_name)
     write(*,*)"Montecarlo: Filed created."
     !total number of spins
@@ -204,6 +204,7 @@ subroutine metropolis(S,L,nbr,z,T,MCTOT,dMC)
     close(3)
     return
 end subroutine
+
 
 
 
