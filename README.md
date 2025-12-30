@@ -9,7 +9,7 @@ First of all the initial configuartion of spins must be created with the **confi
   
 After that, the **MC_simulation.f90** code is used to simulate the system: 
 - Inputs: L, T, NMCS (# of Monte Carlo steps), NMEAS (every how many steps E and M are saved, and random_seed), file_name (containing the initial spin configuration)
-- Outputs: File containining the E and M per particle time series
+- Outputs: File containining the $E$ and $M$ per particle time series
 
 More detailed information about how to compile and execute them can be found in the codes as a comment.
 
@@ -24,4 +24,4 @@ This folder contains all the codes used to analyse and plot the generated data. 
 - make_combined_plot
 
 ## results2DIssing.ods
-Open office document containing the $E$ and $M$ results for each $L$ and $T$.
+Open office document containing the values of $\langle E\rangle$ and $\langle |M|\rangle$ per particle for each $L$ and $T$.
