@@ -23,3 +23,5 @@ This folder contains all the codes used to analyse and plot the generated data. 
 - plot_binning_with_fit
 - make_combined_plot
 
+## results2DIssing.ods
+Open office document containing the $E$ and $M$ results for each $L$ and $T$.
