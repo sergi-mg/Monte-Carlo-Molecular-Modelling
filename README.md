@@ -14,5 +14,12 @@ After that, the **MC_simulation.f90** code is used to simulate the system:
 More detailed information about how to compile and execute them can be found in the codes as a comment.
 
 ## analysis_and_plots_codes
-This folder contains all the codes used to analyse and plot the generated data. **appendix_T_2_1.py** was used to plot the time series in lin-log scale with $T=2.1$. 
+This folder contains all the codes used to analyse and plot the generated data. **appendix_T_2_1.py** was used to plot the time series in lin-log scale with $T=2.1$.
+**binning_code.ipynb** was used for the rest of the plots. It contains the following functions to help the creation of the binning plots, the time series plots and the corresponding fit to obtain the statistical errors and the autocorrelation time. 
+- binning
+- detect_plateau
+- model_fixed_plateau
+- get_fit_params
+- plot_binning_with_fit
+- make_combined_plot
 
