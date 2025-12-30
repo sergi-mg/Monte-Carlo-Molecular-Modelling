@@ -1,7 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-@author: Sergi Martinez Galindo
-"""
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -42,3 +39,4 @@ ax2.set_xlim([10, 10**6])
 fig2.savefig("time_series_M_2_1.pdf", bbox_inches="tight")
 
 plt.show()
+
