@@ -1,0 +1,6 @@
+During this project, ChatGPT has been used in different tasks:
+- Report: 
+  - Improve the writing of some parts of the text.
+  - Create subplots scrpits in LaTeX.
+- Code: 
+  - 
