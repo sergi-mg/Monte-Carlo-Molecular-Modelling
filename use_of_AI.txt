@@ -3,4 +3,5 @@ During this project, ChatGPT has been used in different tasks:
   - Improvement of the writing of some parts of the text.
   - Creation of subfigure's scripts.
 - Code: 
-  - 
+  - Help with the functions and the algorithm implemented for the plots.
+  - Improvement of the plots included in the report.
